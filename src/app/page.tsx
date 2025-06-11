@@ -6,7 +6,6 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
     title: "DirTravel",
     description: "DirTravel",
-    // other metadata
 };
 
 export default function Home() {

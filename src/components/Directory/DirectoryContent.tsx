@@ -11,12 +11,13 @@ import FemaleOutlinedIcon from '@mui/icons-material/FemaleOutlined';
 import {FILTER_SEX} from '@/data/filters'
 import {Button, Tooltip, Select, SelectItem} from "@heroui/react";
 
+
 export default function DirectoryContent({users}: { users: User[] }) {
     const [showFilter, setShowFilter] = useState<boolean>(false)
 
     return (
         <>
-            <section id="directory" className="py-16 md:py-20 lg:py-28">
+            <section id="directory" className="py-16 md:py-20 lg:py-28" >
                 <div className="container">
                     <SectionTitle
                         title="Directorio Transtur SA"
